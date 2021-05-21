@@ -1,0 +1,86 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "text": "Form Input",
+            "horizontalAlignment": "Center",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Title",
+            "wrap": true
+        },
+        {
+            "type": "Input.Text",
+            "style": "text",
+            "id": "SimpleVal"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Skills",
+            "wrap": true
+        },
+        {
+            "type": "Input.ChoiceSet",
+            "id": "CompactSelectVal",
+            "style": "compact",
+            "value": "Hardware Technician",
+            "choices": [
+                {
+                    "title": "Hardware Technician",
+                    "value": "Hardware Technician"
+                },
+                {
+                    "title": "Help Desk Analyst",
+                    "value": "Help Desk Analyst"
+                },
+                {
+                    "title": "Network Administrator",
+                    "value": "Network Administrator"
+                },
+                {
+                    "title": "Business Analyst",
+                    "value": "Business Analyst"
+                },
+                {
+                    "title": "IT Project Manager",
+                    "value": "IT Project Manager"
+                },
+                {
+                    "title": "Systems Engineering Manager",
+                    "value": "Systems Engineering Manager"
+                },
+                {
+                    "title": "IT Director",
+                    "value": "IT Director"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Summary",
+            "wrap": true
+        },
+        {
+            "type": "Input.Text",
+            "style": "text",
+            "isMultiline": true,
+            "id": "MultiLineVal"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Next",
+            "data": {
+                "id": "e9eff60f-485b-4a06-bc67-d936193eee8a"
+            }
+        }
+    ]
+}

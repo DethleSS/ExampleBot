@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\Bots",
+    "\\Controllers",
+    "\\DeploymentTemplates",
+    "\\Properties",
+    "\\wwwroot"
+  ],
+  "SelectedNode": "\\Bots\\EchoBot.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,29 @@
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "text": "Form Input",
+            "horizontalAlignment": "Center",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Title: ",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Skills: ",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Summary: ",
+            "wrap": true
+        }
+    ]
+}
